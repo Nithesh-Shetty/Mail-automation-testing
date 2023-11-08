@@ -99,6 +99,7 @@ def prmail():
         <th>121-180 Ageing Amountr</th>
         <th>181-365 Ageing Amount</th>
         <th>More than 365 Ageing Amount</th>
+        <table style="table-layout: auto; width: 100%;">
         </tr>
         """
     
