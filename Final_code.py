@@ -28,7 +28,7 @@ def prmail():
     unique_emails = df['Pr Creator Email Id'].unique()
     
     # Set up your email server and credentials
-    smtp_server = "smtp-mail.outlook.com"
+    smtp_server = "smtp.lumbinielite.com"
     smtp_port = 587
     smtp_username = "nithesh.s@lumbinielite.com"
     smtp_password = "Welcome@23"
@@ -39,7 +39,7 @@ def prmail():
     
         # Prepare the email content as an HTML table
         subject = "PR DETAILS"
-        from_email = "nitheshshetty32@gmail.com"
+        from_email = "nithesh.s@lumbinielite.com"
         to_email = email  # The recipient's email address
     
         # Create an HTML message object
