@@ -28,7 +28,7 @@ def prmail():
     unique_emails = df['Pr Creator Email Id'].unique()
     
     # Set up your email server and credentials
-    smtp_server = "smtp-mail.outlook.com"
+    smtp_server = "smtp.office365.com"
     smtp_port = 587
     smtp_username = "nithesh.s@lumbinielite.com"
     smtp_password = "Welcome@23"
