@@ -28,10 +28,10 @@ def prmail():
     unique_emails = df['Pr Creator Email Id'].unique()
     
     # Set up your email server and credentials
-    smtp_server = "smtp.gmail.com"
+    smtp_server = "smtp-mail.outlook.com"
     smtp_port = 587
-    smtp_username = "nitheshshetty32@gmail.com"
-    smtp_password = "cklt lhbg spqa ihbr"
+    smtp_username = "nithesh.s@lumbinielite.com"
+    smtp_password = "Welcome@23"
     
     for email in unique_emails:
         # Filter rows for the current email
